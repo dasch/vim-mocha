@@ -14,61 +14,54 @@ let g:colors_name="mocha"
 
 hi Normal    guifg=white guibg=#1B1814 gui=none
 
-" AlignCtrl default
-" AlignCtrl =P0 guifg guibg gui
-" Align
-
 " highlight groups
-hi Cursor       guifg=black          guibg=yellow   gui=none
-hi ErrorMsg     guifg=white          guibg=red      gui=none
-hi VertSplit    guifg=gray40         guibg=gray40   gui=none
-hi Folded       guifg=grey           guibg=grey30   gui=none
-hi FoldColumn   guifg=tan            guibg=grey30   gui=none
-hi IncSearch    guifg=#b0ffff        guibg=#2050d0
-hi LineNr       guifg=burlywood3     gui=none
-hi ModeMsg      guifg=SkyBlue        gui=none
-hi MoreMsg      guifg=SeaGreen       gui=none
-hi NonText      guifg=cyan           gui=none
-hi Question     guifg=springgreen    gui=none
-hi Search       guifg=gray80         guibg=#445599  gui=none
-hi SpecialKey   guifg=cyan           gui=none
-hi StatusLine   guifg=black          guibg=#c2bfa5  gui=bold
+hi Cursor       guifg=black           guibg=yellow   gui=none
+hi ErrorMsg     guifg=white           guibg=red      gui=none
+hi VertSplit    guifg=gray40          guibg=gray40   gui=none
+hi Folded       guifg=grey            guibg=grey30   gui=none
+hi FoldColumn   guifg=tan             guibg=grey30   gui=none
+hi IncSearch    guifg=#b0ffff         guibg=#2050d0
+hi LineNr       guifg=burlywood3      gui=none
+hi ModeMsg      guifg=SkyBlue         gui=none
+hi MoreMsg      guifg=SeaGreen        gui=none
+hi NonText      guifg=cyan            gui=none
+hi Question     guifg=springgreen     gui=none
+hi Search       guifg=gray80          guibg=#445599  gui=none
+hi SpecialKey   guifg=cyan            gui=none
+hi StatusLine   guifg=black           guibg=#c2bfa5  gui=bold
 hi StatusLineNC guifg=white           guibg=gray20   gui=none
-hi TabLine      guibg=#564d43        guifg=#f7f7f1  gui=underline
-hi TabLineFill  guibg=#564d43        guifg=#f7f7f1  gui=underline
-hi TabLineSel   guibg=bg             guifg=#f7f7f1  gui=bold
-hi Title        guifg=white      gui=none
-hi Visual       guifg=white          guibg=SkyBlue4     gui=none
-hi WarningMsg   guifg=salmon         gui=none
-hi Pmenu guibg=#a78869 guifg=#000000 gui=none
-hi PmenuSbar guibg=#B99F86 guifg=fg gui=none
-hi PmenuSel guibg=#c0aa94 guifg=bg gui=none
-hi PmenuThumb guibg=#f7f7f1 guifg=bg gui=none
-hi WildMenu     guifg=gray           guibg=gray17   gui=none
-hi MatchParen   guifg=lightgoldenrod2           guibg=black     gui=bold
-hi DiffAdd      guifg=black          guibg=wheat1
-hi DiffChange   guifg=black          guibg=skyblue1
-hi DiffText     guifg=black          guibg=hotpink1  gui=none
-hi DiffDelete   guibg=gray45         guifg=black     gui=none
+hi TabLine      guibg=#564d43         guifg=#f7f7f1  gui=underline
+hi TabLineFill  guibg=#564d43         guifg=#f7f7f1  gui=underline
+hi TabLineSel   guibg=bg              guifg=#f7f7f1  gui=bold
+hi Title        guifg=white           gui=none
+hi Visual       guifg=white           guibg=SkyBlue4 gui=none
+hi WarningMsg   guifg=salmon          gui=none
+hi Pmenu        guifg=#000000         guibg=#a78869  gui=none
+hi PmenuSbar    guifg=fg              guibg=#B99F86  gui=none
+hi PmenuSel     guifg=bg              guibg=#c0aa94  gui=none
+hi PmenuThumb   guifg=bg              guibg=#f7f7f1  gui=none
+hi WildMenu     guifg=gray            guibg=gray17   gui=none
+hi MatchParen   guifg=lightgoldenrod2 guibg=black    gui=bold
+hi DiffAdd      guifg=black           guibg=wheat1
+hi DiffChange   guifg=black           guibg=skyblue1
+hi DiffText     guifg=black           guibg=hotpink1 gui=none
+hi DiffDelete   guibg=gray45          guifg=black    gui=none
+
 
 " Real diff
 hi DiffAdded    guifg=green
 hi DiffRemoved  guifg=#f77
 
 if has("spell")
-    hi SpellBad guisp=#f07070 gui=undercurl
-    hi SpellCap guisp=#7070f0 gui=undercurl
+    hi SpellBad   guisp=#f07070 gui=undercurl
+    hi SpellCap   guisp=#7070f0 gui=undercurl
     hi SpellLocal guisp=#70f0f0 gui=undercurl
-    hi SpellRare guisp=#f070f0 gui=undercurl
+    hi SpellRare  guisp=#f070f0 gui=undercurl
 endif
 
-
-
-" syntax highlighting groups
 hi Comment      guifg=#7F8A70     gui=none
 hi Number guifg=#DDF2A4
 hi Constant     guifg=white         gui=none
-"hi Identifier   guifg=#6C9CBD        gui=none
 hi Identifier   guifg=white
 hi Function     guifg=white           gui=none
 hi Statement    guifg=lightgoldenrod2 gui=none
