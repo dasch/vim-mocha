@@ -41,7 +41,7 @@ hi PmenuSbar    guifg=fg              guibg=#B99F86  gui=none
 hi PmenuSel     guifg=bg              guibg=#c0aa94  gui=none
 hi PmenuThumb   guifg=bg              guibg=#f7f7f1  gui=none
 hi WildMenu     guifg=gray            guibg=gray17   gui=none
-hi MatchParen   guifg=lightgoldenrod2 guibg=black    gui=bold
+hi MatchParen   guifg=white           guibg=skyblue4 gui=bold
 hi DiffAdd      guifg=black           guibg=wheat1
 hi DiffChange   guifg=black           guibg=skyblue1
 hi DiffText     guifg=black           guibg=hotpink1 gui=none
