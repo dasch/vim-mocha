@@ -142,6 +142,8 @@ hi phpStructure guifg=lightgoldenrod2
 hi phpStorageClass guifg=lightgoldenrod2
 hi phpStatement guifg=lightgoldenrod2
 hi link phpVarSelector Identifier
+hi link phpQuoteSingle Delimiter
+hi link phpQuoteDouble Delimiter
 
 
 " JavaScript
