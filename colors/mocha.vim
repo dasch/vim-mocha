@@ -60,7 +60,7 @@ if has("spell")
 endif
 
 hi Comment      guifg=#7F8A70     gui=none
-hi Number guifg=#DDF2A4
+hi Number       guifg=#A4C260
 hi Constant     guifg=white         gui=none
 hi Identifier   guifg=white
 hi Function     guifg=white           gui=none
@@ -73,8 +73,8 @@ hi Character    guifg=#DDF2A4
 hi Boolean      guifg=#AA88AA
 hi Ignore       guifg=grey40          gui=none
 hi Todo         guifg=lightgoldenrod2 guibg=grey30 gui=bold
+hi String       guifg=#A4C260
 
-hi link String Special
 hi link Operator Special
 hi link Structure Special
 hi link StorageClass Special
