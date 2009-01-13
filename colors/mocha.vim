@@ -152,3 +152,9 @@ hi javaScriptFunction guifg=lightgoldenrod2
 
 " Make
 hi link makeTarget Operator
+
+
+" Java
+hi link javaClassDecl Keyword
+hi link javaScopeDecl Keyword
+hi link javaBraces    Special
