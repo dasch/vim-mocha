@@ -158,3 +158,7 @@ hi link makeTarget Operator
 hi link javaClassDecl Keyword
 hi link javaScopeDecl Keyword
 hi link javaBraces    Special
+
+
+" Python
+hi link pythonOperator Keyword
