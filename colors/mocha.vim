@@ -162,3 +162,8 @@ hi link javaBraces    Special
 
 " Python
 hi link pythonOperator Keyword
+
+
+" Common Lisp
+hi link lispAtom Character
+hi link lispKey  Special
