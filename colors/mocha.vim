@@ -12,7 +12,7 @@ if version > 580
 endif
 let g:colors_name="mocha"
 
-hi Normal    guifg=white guibg=#1B1814 gui=none
+hi Normal    guifg=#ddddcc guibg=#1B1814 gui=none
 
 " highlight groups
 hi Cursor       guifg=black           guibg=yellow   gui=none
