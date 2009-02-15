@@ -74,6 +74,8 @@ hi Boolean      guifg=#AA88AA
 hi Ignore       guifg=grey40          gui=none
 hi Todo         guifg=lightgoldenrod2 guibg=grey30 gui=bold
 hi String       guifg=#A4C260
+hi SignColumn   guibg=#1B1814 gui=none
+hi ShowMarksHLl guifg=lightgoldenrod2 guibg=#151207
 
 hi link Operator Special
 hi link Structure Special
