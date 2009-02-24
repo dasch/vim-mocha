@@ -164,6 +164,7 @@ hi link javaBraces    Special
 
 " Python
 hi link pythonOperator Keyword
+hi link pythonDecorator Delimiter
 
 
 " Common Lisp
