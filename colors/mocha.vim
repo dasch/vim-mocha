@@ -49,7 +49,7 @@ hi DiffDelete   guibg=gray45          guifg=black    gui=none
 
 
 " Real diff
-hi DiffAdded    guifg=green
+hi DiffAdded    guifg=#4b4
 hi DiffRemoved  guifg=#f77
 
 if has("spell")
